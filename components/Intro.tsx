@@ -41,23 +41,24 @@ const Intro = () => {
       </div>
 
       <motion.h1
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-        className='mb-10 mt-4 px-4 text-lg md:text-xl font-normal !leading-[1.5]'>
-        Hey there. I'm <span className='font-bold'> Ajmain Mahtab Alam.</span> I'm a
-        <span className='font-bold'> recent Computer Science & Engineering graduate </span> with a 
-        strong passion for 
-        <span className='font-bold'> coding.</span>I enjoy
-        building
-        <span className='font-bold italic'>
-          {' '}
-          Web Applications & learning about new things
-        </span>
-        . I am interested in {' '}
-        <span className='font-bold underline'>
-         Web development & Machine Learning
-        </span>
-      </motion.h1>
+  initial={{ opacity: 0, y: 100 }}
+  animate={{ opacity: 1, y: 0 }}
+  className='mb-10 mt-4 px-4 text-lg md:text-xl font-normal !leading-[1.5]'>
+  Hey there. I&apos;m <span className='font-bold'> Ajmain Mahtab Alam.</span> I&apos;m a
+  <span className='font-bold'> recent Computer Science & Engineering graduate </span> with a 
+  strong passion for 
+  <span className='font-bold'> coding.</span>I enjoy
+  building
+  <span className='font-bold italic'>
+    {' '}
+    Web Applications & learning about new things
+  </span>
+  . I am interested in {' '}
+  <span className='font-bold underline'>
+    Web development & Machine Learning
+  </span>
+</motion.h1>
+
 
       <div className='flex flex-col md:flex-row gap-3 items-center justify-center'>
         <motion.div
